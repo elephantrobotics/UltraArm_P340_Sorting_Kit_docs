@@ -19,4 +19,16 @@
   * [3.3 软件](14-IssueFAQ/14.2-software.md)
   * [3.4 硬件](14-IssueFAQ/14.3-hardware.md)
 
-
+## 开发前的准备
+- [4 机械臂知识快速学习](3-RobotKnowledge/README.md)  
+  * [4.1 串联机器人](3-RobotKnowledge/3.1-series_robot.md)
+  * [4.2 电子背景知识](3-RobotKnowledge/3.2-electric_knowledge.md)
+  * [4.3 电机与舵机知识](3-RobotKnowledge/3.4-motors_and_servos.md)
+  * [4.4 机器人运动学]()
+    * [1 myCobot 六轴协作系列](./Kinematics&Coordinate.md)
+  
+- [5 基础功能应用](4-BasicApplication/README.md)  
+  - [5.1 myStudio](4-BasicApplication/4.1-myStudio/README.md)
+    * [1 myStudio环境搭建](4-BasicApplication/4.1-myStudio/4.1.1-myStudio_download_driverinstalled.md)
+    * [2 烧录与更新固件](4-BasicApplication/4.1-myStudio/4.1.2-myStudio_flash_firmwares.md)
+  * [5.2 资料下载](4-BasicApplication/4.5-files_download.md)
