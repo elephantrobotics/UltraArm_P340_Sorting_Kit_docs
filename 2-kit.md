@@ -40,4 +40,4 @@
 
 
 ---
-[← 上一页](./1-elephant/1.3-how_to_read.md) | [下一页 → ](./2.1-Product_Introduction.md)
+[← 上一页](./1-elephant/1.2-MY_series.md) | [下一页 → ](./2.1-Product_Introduction.md)
