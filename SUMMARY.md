@@ -4,7 +4,8 @@
 - [1 大象机器人](README.md)  
   * [1.1 公司简介](1-elephant/1.1-introduction.md)
   * [1.2 my系列发展历程](1-elephant/1.2-MY_series.md)
-  * [1.3 如何阅读](1-elephant/1.3-how_to_read.md)
+  <!-- * [1.3 如何阅读](1-elephant/1.3-how_to_read.md) -->
+  
   
 * [2 高级套装](./2-kit.md)
   * [2.1 奥创智能分拣套装](./2.1-Product_Introduction.md)
