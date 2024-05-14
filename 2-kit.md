@@ -1,37 +1,36 @@
-# Advanced Package
+# Premium Package
 
-Take lead in the frontier of science and technology, and create practical packages, including core packages such as machine vision, composite robots, etc., and enlightens the user's creative thinking to make him understand the open source innovation culture.
-With good expansibility and high openness, the package can be used for multiple applications. It can be easily used for the practice platforms of colleges, robotics building, robot laboratories and personal study.
+Leading the forefront of science and technology, creating practical suites, including core suites such as machine vision and composite robots, to inspire innovative thinking and understand open source creative culture.
 
-### Package Type：
-[**UltraArm Sorting Kit**](./2.1-Product_Introduction.md)
-* The Aochuang Intelligent Sorting Kit supports robot vision and robot application learning. The kit includes the Aochuang P340 series robotic arm, end effector, camera, scene kit, and provides a unique case study and learning experience through open-source Python programs
+It has good scalability and high openness, and can be used for a variety of purposes. It can be easily used on the practical training platform of vocational colleges, robotics discipline construction, robotics laboratory or personal study and use.
 
-[**AI Kit 2023**](https://docs.elephantrobotics.com/docs/aikit-2023-cn/)
-* Artificial intelligence Kit 2023 version is a new upgrade, learn the control principle of four-axis and six-axis collaborative robots, and realize fully automated operations from identification to sorting。
+### Suit type:
+[**Altron Intelligent Sorting Kit**](./2.1-Product_Introduction.md)
+* Altra intelligent sorting kit supports robot vision and robot application learning. The kit includes Altra P340 series robotic arms, end effectors, cameras, scene kits, and provides unique case practice and learning experience through open source Python programs.
 
-[**myCobot 320 AI Kit 2023**](https://docs.elephantrobotics.com/docs/aikit-320-2023-cn/)
+[**Artificial Intelligence Kit 2023 Edition**](https://docs.elephantrobotics.com/docs/aikit-2023-cn/)
+* Artificial Intelligence Suite 2023 Version Newly upgraded, learn the control principles of four- and six-axis collaborative robots to achieve fully automated operations from identification to sorting.
 
-* The myCobot 320 AI Kit 2023 Edition is a Python-based platform that allows control of the robotic arm through software development. It enables fully automated operations, from recognition to sorting, making it suitable for a wide range of applications.
+[**myCobot 320 Artificial Intelligence Kit 2023 Edition**](https://docs.elephantrobotics.com/docs/aikit-320-2023-cn/)
+
+* myCobot 320 Artificial Intelligence Suite 2023 version, based on the Python platform, can control the robotic arm through the development of software to achieve fully automated operations from identification to sorting.
 
 
-[**AI Kit 3D**](https://docs.elephantrobotics.com/docs/aikit-3D-cn/)
+[**Artificial Intelligence Kit 3D Version**](https://docs.elephantrobotics.com/docs/aikit-3D-cn/)
 
-* The AI Kit 3D Edition is equipped with a 3D camera for three-dimensional recognition and positioning. It eliminates the need for complex position calibration, making the setup process hassle-free. The kit offers four recognition algorithms and two major applications. The open-source Python-based code allows developers to control the robotic arm through the development software, enabling full automation from recognition to sorting tasks. With this kit, you can achieve seamless automation in your operations, from object recognition to automated sorting.
+* 3D version of the artificial intelligence suite, equipped with a 3D camera for three-dimensional recognition and positioning, without complicated position calibration, four recognition algorithms and two major applications, the open source code is based on the Python platform, and the control of the robotic arm can be realized through the development of software, from recognition to Fully automated sorting operations.
 
-[**AI Kit**](https://docs.elephantrobotics.com/docs/aikit-2023-cn/)
+[**Artificial Intelligence Kit**](https://docs.elephantrobotics.com/docs/aikit-2023-cn/)
 
-* A robot is guided through machine vision, and intelligent gripper can be realized
-at the same time.
+* Guide the robot through machine vision and realize intelligent grasping at the same time.
 
-[**Industry 4.0 Package**](https://item.taobao.com/item.htm?id=643582789902)
+[**Industry 4.0 Suite**](https://item.taobao.com/item.htm?id=643582789902)
 
-* A robot is guided through machine vision, and intelligent gripper can be realized
-at the same time. (Upgraded version of AI package)
+* Guide the robot through machine vision and realize intelligent grasping at the same time. (Artificial Intelligence Suite Upgraded Version)
 
-[**Mobile Hybrid Robot Package**](https://docs.elephantrobotics.com/docs/myagv-cn/)
+[**Mobile Composite Robot Suit**](https://docs.elephantrobotics.com/docs/myagv-cn/)
 
-* The mobile hybrid robot allows your workspace to be expanded sufficiently to enable it to complete more tasks.
+* Mobile composite robots allow the work space to be fully expanded so that they can complete more tasks.
 
 
 
@@ -41,4 +40,4 @@ at the same time. (Upgraded version of AI package)
 
 
 ---
-[← Previous Page](./1-elephant/1.3-how_to_read.md) | [Next Page → ](./2.1-Product_Introduction.md)
+[← Previous page](./1-elephant/1.2-MY_series.md) | [Next page → ](./2.1-Product_Introduction.md)

@@ -4,7 +4,7 @@
 - [1 Elephant Robotics](README.md)  
   * [1.1 Company Introduction](1-elephant/1.1-introduction.md)
   * [1.2 Development History](1-elephant/1.2-MY_series.md)
-  * [1.3 How to Read](1-elephant/1.3-how_to_read.md)
+  <!-- * [1.3 How to Read](1-elephant/1.3-how_to_read.md) -->
   
 * [2 Robot Kits](./2-kit.md)
   * [2.1 UltraArm Sorting Kit](./2.1-Product_Introduction.md)
