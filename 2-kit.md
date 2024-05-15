@@ -5,8 +5,8 @@ Leading the forefront of science and technology, creating practical suites, incl
 It has good scalability and high openness, and can be used for a variety of purposes. It can be easily used on the practical training platform of vocational colleges, robotics discipline construction, robotics laboratory or personal study and use.
 
 ### Suit type:
-[**Altron Intelligent Sorting Kit**](./2.1-Product_Introduction.md)
-* Altra intelligent sorting kit supports robot vision and robot application learning. The kit includes Altra P340 series robotic arms, end effectors, cameras, scene kits, and provides unique case practice and learning experience through open source Python programs.
+[**UltraArm Sorting Kit**](./2.1-Product_Introduction.md)
+* UltraArm Sorting Kit supports robot vision and robot application learning. The kit includes Altra P340 series robotic arms, end effectors, cameras, scene kits, and provides unique case practice and learning experience through open source Python programs.
 
 [**Artificial Intelligence Kit 2023 Edition**](https://docs.elephantrobotics.com/docs/aikit-2023-cn/)
 * Artificial Intelligence Suite 2023 Version Newly upgraded, learn the control principles of four- and six-axis collaborative robots to achieve fully automated operations from identification to sorting.
