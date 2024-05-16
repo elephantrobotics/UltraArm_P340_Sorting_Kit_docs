@@ -9,8 +9,8 @@
   
 * [2 Robot Kits](./2-kit.md)
   * [2.1 UltraArm Sorting Kit](./2.1-Product_Introduction.md)
-    * [1 Hardware introduction](./2-KIT/2.1-HardwareIntroduction.md)
-    * [2 Hardware installation](./2-KIT/2.2-Hardwareinstall.md)
+    * [1 Hardware Introduction](./2-KIT/2.1-HardwareIntroduction.md)
+    * [2 Hardware Installation](./2-KIT/2.2-Hardwareinstall.md)
     * [3 Software Installation](./2-KIT/2.3-Softwareinstallation.MD)
     * [4 Unit Testing](./2-KIT/2.4-Unittesting.md)
     * [5 Function Display](./2-KIT/2.5-CompleteRun.md) 
