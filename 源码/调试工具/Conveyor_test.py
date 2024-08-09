@@ -11,6 +11,6 @@ for i in range(100):
           time.sleep(5)
           conveyer.close_conveyor()
           time.sleep(2)
-     #按住键盘CTRL+C键，可让传送带停止
+     #同时按住键盘CTRL和C键，可让传送带停止
      except KeyboardInterrupt:
           conveyer.close_conveyor()
