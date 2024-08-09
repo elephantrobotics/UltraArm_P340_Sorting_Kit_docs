@@ -5,8 +5,12 @@ sys.path.append(BASE_DIR)
 from ConveyorMain import *
 conveyer=ConveyorMain("COM13")
 
-for i in range(2):
-     conveyer.open_conveyor(100)
-     time.sleep(3)
-     conveyer.close_conveyor()
-     time.sleep(2)
+for i in range(100):
+     try:
+          conveyer.open_conveyor(100)
+          time.sleep(5)
+          conveyer.close_conveyor()
+          time.sleep(2)
+     #Press and hold CTRL+C on the keyboard to stop the conveyor belt
+     except KeyboardInterrupt:
+          conveyer.close_conveyor()
