@@ -6,7 +6,7 @@ robot2 = ultraArm("COM9")
 def check_robot(ua):
     ua.go_zero()
     ua.sync()
-    ua.set_angle(4,90，100)
+    ua.set_angle(4,90,100)
     ua.sync()
     ua.set_gpio_state(0)
     time.sleep(2)
