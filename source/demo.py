@@ -8,8 +8,8 @@ from Message import *
 
 #Please read the manual first and determine the serial port number of each device before running this program
 if __name__=="__main__": 
-    obj=Unstacking_Camera(cap_num=1,pump_x=0,pump_y=-25)
-    cam=Palletizing_Camera(cap_num=2,pump_x=40,pump_y=10)
+    obj=Unstacking_Camera(cap_num=1,pump_x=-5,pump_y=-4)
+    cam=Palletizing_Camera(cap_num=2,pump_x=17,pump_y=-5)
     robot=Vision_Unstacking_Robot("COM12",robot_speed=150)
     robot2=Palletizing_Robot("COM8",robot_speed=150,x_shift=10,y_shift=10)
     conveyer=ConveyorMain("COM10")
@@ -24,7 +24,7 @@ if __name__=="__main__":
         for i in range(len(data)):
             robot.move(data[i][2],data[i][1])                                  
             conveyer.open_conveyor(100)#Running speed of conveyor belt，speed:0-100
-            time.sleep(5.2)          
+            time.sleep(29)    #If the conveyor belt is powered by 24V, the delay is changed to 5 seconds      
             conveyer.close_conveyor()
             for i in range(3):
                 try:
@@ -39,7 +39,7 @@ if __name__=="__main__":
                     temp=obj.exception_handling()
                     robot.Special_handling(temp[0][2],temp[0][1],temp[0][3])
                     conveyer.open_conveyor(100)
-                    time.sleep(5.2)
+                    time.sleep(29) #If the conveyor belt is powered by 24V, the delay is changed to 5 seconds
                     conveyer.close_conveyor()
             id=robot2.move(pose[0],pose[1],pose[2],pose[3])                   
             robot2.judge(id)  
