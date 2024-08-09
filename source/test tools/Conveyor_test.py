@@ -11,6 +11,6 @@ for i in range(100):
           time.sleep(5)
           conveyer.close_conveyor()
           time.sleep(2)
-     #Press and hold CTRL+C on the keyboard to stop the conveyor belt
+     #Press and hold the CTRL and C keys simultaneously to stop the conveyor belt.
      except KeyboardInterrupt:
           conveyer.close_conveyor()
