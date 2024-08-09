@@ -27,7 +27,7 @@ if __name__=="__main__":
                                  
             conveyer.open_conveyor(100)
             
-            time.sleep(29)#如果传送带的供电电源是24V，延时改为5
+            time.sleep(29)#如果传送带的供电电源是24V，延时改为5秒
             
             conveyer.close_conveyor()
             
@@ -44,7 +44,7 @@ if __name__=="__main__":
                     temp=obj.exception_handling()
                     robot.Special_handling(temp[0][2],temp[0][1],temp[0][3])
                     conveyer.open_conveyor(100)
-                    time.sleep(29)#如果传送带的供电电源是24V，延时改为5
+                    time.sleep(29)#如果传送带的供电电源是24V，延时改为5秒
                     conveyer.close_conveyor()
             id=robot2.move(pose[0],pose[1],pose[2],pose[3])                   
             robot2.judge(id)  
