@@ -176,7 +176,18 @@ class Palletizing_Robot():
             self.ua.set_angles(self.angles[1],self.speed)
             self.ua.sync()
         self.ua.set_angles(self.angles[3], self.speed)
-        self.ua.sync() 
+        self.ua.sync()
+
+    def hand_eye(self, x, y, yaw,id):                     
+        print('real_x, real_y:', round(self.coords[0][0]+x, 2), round(self.coords[0][1]+y, 2))  
+        self.ua.set_angles(self.angles[3], self.speed)
+        self.ua.sync()      
+        self.ua.set_coords([self.coords[0][0]+x, self.coords[0][1]+y, 134,yaw], self.lift_speed)
+        self.ua.sync()       
+        self.ua.set_coords([self.coords[0][0]+x, self.coords[0][1]+y,self.coords[0][2]+10,yaw], self.lift_speed)
+        self.ua.sync()       
+                  
+        return id       
 
 
 
