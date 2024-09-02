@@ -129,8 +129,19 @@ class Vision_Unstacking_Robot():
         self.ua.set_angles(self.angles[1],self.speed)
         self.ua.sync()
         pass
+
+    def hand_eye(self, x, y):                      
+        print('real_x, real_y:', round(self.coords[0][0]+x, 2), round(self.coords[0][1]-y, 2))               
+        self.ua.set_angles(self.angles[0], self.speed)
+        self.ua.sync()              
+        self.ua.set_coords([self.coords[0][0]+x, self.coords[0][1]-y, 134,self.coords[0][3]], self.speed)       
+        self.ua.sync()       
+
+        if -1<self.count<6:
+            self.ua.set_coords([self.coords[0][0]+x, self.coords[0][1]-y,self.coords[0][2]-self.Z_flag*0+10,self.coords[0][3]], self.lift_speed)         
+            self.ua.sync()
         
-        
+    
        
 
 
