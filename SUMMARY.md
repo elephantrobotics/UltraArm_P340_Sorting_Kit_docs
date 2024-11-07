@@ -14,6 +14,7 @@
     * [3 软件安装](./2-KIT/2.3-Softwareinstallation.MD)
     * [4 单元测试](./2-KIT/2.4-Unittesting.md)
     * [5 功能展示](./2-KIT/2.5-CompleteRun.md)
+    * [6 拓展案例](./2-KIT/color.md)
 
     
   
