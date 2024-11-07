@@ -13,7 +13,8 @@
     * [2 Hardware Installation](./2-KIT/2.2-Hardwareinstall.md)
     * [3 Software Installation](./2-KIT/2.3-Softwareinstallation.MD)
     * [4 Unit Testing](./2-KIT/2.4-Unittesting.md)
-    * [5 Function Display](./2-KIT/2.5-CompleteRun.md) 
+    * [5 Function Display](./2-KIT/2.5-CompleteRun.md)
+    * [6 Expanded Case](./2-KIT/color_en.md) 
 
     
   
