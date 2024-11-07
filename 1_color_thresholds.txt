@@ -1,0 +1,32 @@
+Red:
+  Low H: 0
+  High H: 10
+  Low S: 101
+  High S: 255
+  Low V: 101
+  High V: 255
+
+Green:
+  Low H: 30
+  High H: 179
+  Low S: 43
+  High S: 255
+  Low V: 0
+  High V: 255
+
+Blue:
+  Low H: 91
+  High H: 124
+  Low S: 43
+  High S: 255
+  Low V: 47
+  High V: 255
+
+Yellow:
+  Low H: 21
+  High H: 39
+  Low S: 43
+  High S: 255
+  Low V: 47
+  High V: 255
+
