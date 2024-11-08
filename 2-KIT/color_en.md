@@ -23,3 +23,8 @@ According to the QR code case debugging method, determine the serial port number
 If you are not sure, you can adjust the hand-eye calibration parameters appropriately.
 
 <img src="./img/3.png" width="50%" height="50%">
+
+
+<video id="my-video" class="video-js" controls preload="auto" width="100%"
+poster="" data-setup='{"aspectRatio":"16:9"}'>
+  <source src="./img/5.mp4"></video>
