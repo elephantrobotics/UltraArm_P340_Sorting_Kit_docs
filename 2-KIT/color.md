@@ -16,6 +16,7 @@
 运行hsv. py文件后,会弹出一个窗口,通过滑块调节阈值,在调到合适的阈值后,会出现一个绿框,将木块框住,再将阈值填写到对应的文件上,1_color_thresholds.txt对应1号相机,2_color_thresholds.txt对应2号相机
 
 下面以红色木块为例子，两个相机分别对红色木块进行阈值调整，将调整后的阈值填写到对应的文件上，其他的颜色的阈值调整，也是同样的方法
+
 <img src="./img/1.png"  width="50%" height="50%">
 
 <img src="./img/2.png"  width="50%" height="50%">
@@ -26,3 +27,7 @@
 若是抓不准,可适当调整手眼标定参数
 
 <img src="./img/3.png"  width="50%" height="50%">
+
+<video id="my-video" class="video-js" controls preload="auto" width="100%"
+poster="" data-setup='{"aspectRatio":"16:9"}'>
+  <source src="./img/5.mp4"></video>
