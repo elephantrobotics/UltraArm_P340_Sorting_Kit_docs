@@ -45,9 +45,9 @@ class Vision_Unstacking_Robot():
     # 控制吸泵
     def pub_pump(self, flag):
         if flag:
-            self.ua.set_gpio_state(0)
-        else:
             self.ua.set_gpio_state(1)
+        else:
+            self.ua.set_gpio_state(0)
 
      #拆垛功能函数
     def move(self, x, y):                      
