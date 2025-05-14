@@ -8,9 +8,9 @@ def check_robot(ua):
     ua.sync()
     ua.set_angle(4,90,100)
     ua.sync()
-    ua.set_gpio_state(0)
-    time.sleep(2)
     ua.set_gpio_state(1)
+    time.sleep(2)
+    ua.set_gpio_state(0)
     time.sleep(1)
 
 
