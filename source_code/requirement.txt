@@ -1,5 +1,5 @@
-pymycobot==3.2.4
+pymycobot==3.6.8
 opencv-python==4.5.5.62
 opencv-contrib-python==4.5.5.62
-numpy
+numpy==1.24.2
 pyserial
