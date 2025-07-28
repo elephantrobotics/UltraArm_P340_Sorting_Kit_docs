@@ -16,7 +16,7 @@ class Palletizing_Robot():
         self.angles = [        
             [15.53, 3.83, -1.75,0],#Transition point
             [56.53, 4.83, -1.75,-25.3],#Transition lifting point in the Palletizing area
-            
+            [56.53, 4.83, -1.75,-25.3],
              [-18, 0, 0, -38]
             
         ]
