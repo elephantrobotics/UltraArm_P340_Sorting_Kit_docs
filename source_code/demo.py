@@ -13,7 +13,11 @@ if __name__=="__main__":
     robot=Vision_Unstacking_Robot("COM12",robot_speed=150)
     robot2=Palletizing_Robot("COM8",robot_speed=150,x_shift=10,y_shift=10)
     conveyer=ConveyorMain("COM10")
-    
+    conveyer.open_conveyor(100)
+            
+    time.sleep(10)
+            
+    conveyer.close_conveyor()
     
     while robot2.count<18:
         data=obj.detect()
@@ -27,7 +31,7 @@ if __name__=="__main__":
                                  
             conveyer.open_conveyor(100)
             
-            time.sleep(29)#如果传送带的供电电源是24V，延时改为5秒
+            time.sleep(7)#如果传送带的供电电源是24V，延时改为5秒
             
             conveyer.close_conveyor()
             
@@ -44,7 +48,7 @@ if __name__=="__main__":
                     temp=obj.exception_handling()
                     robot.Special_handling(temp[0][2],temp[0][1],temp[0][3])
                     conveyer.open_conveyor(100)
-                    time.sleep(29)#如果传送带的供电电源是24V，延时改为5秒
+                    time.sleep(7)#如果传送带的供电电源是24V，延时改为5秒
                     conveyer.close_conveyor()
             id=robot2.move(pose[0],pose[1],pose[2],pose[3])                   
             robot2.judge(id)  
