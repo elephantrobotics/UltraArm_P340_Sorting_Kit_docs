@@ -13,7 +13,12 @@ if __name__=="__main__":
     robot=Vision_Unstacking_Robot("COM12",robot_speed=150)
     robot2=Palletizing_Robot("COM8",robot_speed=150,x_shift=10,y_shift=10)
     conveyer=ConveyorMain("COM10")
-    
+    time.sleep(2)
+    conveyer.open_conveyor(100)
+            
+    time.sleep(10)
+            
+    conveyer.close_conveyor()
     while robot2.count<18:
         data=obj.detect()
         while len(data)<6:
@@ -24,7 +29,7 @@ if __name__=="__main__":
         for i in range(len(data)):
             robot.move(data[i][2],data[i][1])                                  
             conveyer.open_conveyor(100)#Running speed of conveyor belt，speed:0-100
-            time.sleep(29)    #If the conveyor belt is powered by 24V, the delay is changed to 5 seconds      
+            time.sleep(7)    #If the conveyor belt is powered by 24V, the delay is changed to 5 seconds      
             conveyer.close_conveyor()
             for i in range(3):
                 try:
