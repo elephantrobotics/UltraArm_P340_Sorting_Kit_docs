@@ -13,13 +13,6 @@ if __name__=="__main__":
     robot=Vision_Unstacking_Robot("COM12",robot_speed=150)
     robot2=Palletizing_Robot("COM8",robot_speed=150,x_shift=10,y_shift=10)
     conveyer=ConveyorMain("COM10")
-    time.sleep(2)
-    conveyer.open_conveyor(100)
-            
-    time.sleep(10)
-            
-    conveyer.close_conveyor()
-    
     while robot2.count<18:
         data=obj.detect()
         while len(data)<6:
