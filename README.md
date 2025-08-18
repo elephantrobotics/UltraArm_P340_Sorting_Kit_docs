@@ -4,13 +4,4 @@
 **机械臂固件**：V1.5
 <br/>
 **传送带固件**：V1.1
-# 依赖安装
 
-```bash
-pip install -r requirement.txt
-
-```
-
-# 操作文档
-
-https://docs.elephantrobotics.com/docs/ultraArm_sorting_kit_cn/2-KIT/2.5-CompleteRun.html
